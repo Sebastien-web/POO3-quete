@@ -13,7 +13,7 @@ final class MotorWay extends HighWay {
         public function addVehicle($Vehicle){
             if ($vehicle instanceof Car) 
             {
-                $this->setcurrentVehicles($Vehicle);
+                parent::setcurrentVehicles($Vehicle);
             }
         }
 }

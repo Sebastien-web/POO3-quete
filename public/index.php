@@ -12,3 +12,8 @@ $sunLane->addVehicle($simca);
 $sunLane->addVehicle($peugeot);
 
 var_dump($sunLane->getcurrentVehicles());
+
+$princessStreet->addVehicle($simca);
+$princessStreet->addVehicle($peugeot);
+
+var_dump($princessStreet->getcurrentVehicles());
