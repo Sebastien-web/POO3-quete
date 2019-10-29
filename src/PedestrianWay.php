@@ -2,7 +2,7 @@
 
 namespace Engin;
 
-require_once 'HighWay.php';
+//require_once 'HighWay.php';
 
 final class PedestrianWay extends HighWay {
         // var int
